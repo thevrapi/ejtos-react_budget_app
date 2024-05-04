@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myCustomDD{
+  padding-inline: 0 !important;
+}
+
+.myCustomDD span{
+  background-color: transparent;
+  padding: .5em;
+  padding-inline: 2em
+}
+
+.myCustomDD span:hover{
+  background-color: white;
+  cursor: pointer;
+}
